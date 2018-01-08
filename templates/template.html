@@ -1,0 +1,18 @@
+<!doctype html>
+<head>
+	<title>Hello from Flask</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<div class = "container">
+{% if filename %}
+	<h2> The Uploaded image is</h2>
+	<h1><img src="{{ url_for('send_file', filename=filename) }}" style="width:200px;height:200px;" class="img-rounded" alt="Cinque Terre"></h1>
+	<h3>The Corresponding Score is</h3>
+{% else %}
+	<h1>no image for whatever reason</h1>
+{% endif %}
+</div>
