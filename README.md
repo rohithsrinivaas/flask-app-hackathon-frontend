@@ -22,3 +22,6 @@ To use during hackathons ,replace the code inside "result" function in label.py 
 
 export FLASK_APP = app.py<br />
 flask run<br />
+
+## Note
+This is a very minimal and functional only flask app for doing demo for Computer vision and Deep Learning hackathons.Feel free to add to your own styling and other functionalities to make to more suitable for your necessities.
