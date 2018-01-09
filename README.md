@@ -1,5 +1,5 @@
 # flask-app-hackathon-frontend
-To make a ready to go flask app for doing demo for computer vision hackathons.
+Ready to go flask app for doing demo during Computer Vision and Deep learning hackathons.
 
 ## Dependencies
 Flask (0.12.2)<br />
