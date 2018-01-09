@@ -11,7 +11,9 @@
 {% if filename %}
 	<h2> The Uploaded image is</h2>
 	<h1><img src="{{ url_for('send_file', filename=filename) }}" style="width:200px;height:200px;" class="img-rounded" alt="Cinque Terre"></h1>
-	<h3>The Corresponding Score is</h3>
+	<h3>The Corresponding Score is </h3>
+	<h3>{{ score }}</h3>
+
 {% else %}
 	<h1>no image for whatever reason</h1>
 {% endif %}
