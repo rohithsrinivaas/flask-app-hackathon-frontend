@@ -2,7 +2,8 @@
 To make a ready to go flask app for doing demo for computer vision hackathons.
 
 ## Dependencies
-Flask (0.12.2), Python 2 or 3
+Flask (0.12.2)<br />
+Python 2 or 3
 
 ## app.py
 This python script contains the required functions for uploading the image, displaying the image and the corresponding output
@@ -19,5 +20,5 @@ To use during hackathons ,replace the code inside "result" function in label.py 
 ## To Run
 ### Run the following commands in the terminal
 
-export FLASK_APP = app.py
-flask run
+export FLASK_APP = app.py<br />
+flask run<br />
